@@ -57,7 +57,7 @@ height: 60px;
   }
 
   h3{
-      font-size: 16px;
+      font-size: 18px;
       font-weight: bold;
       color: #000000;
       padding-top: 6px;     
@@ -103,6 +103,42 @@ height: 60px;
     position: relative;
     display: flex;
  }
+
+ .sortingButton{
+    width: 100%;
+    position: relative;
+    display: flex;
+
+ }
+
+  h4{
+      padding-right: 20px;
+  }
+
+  .filterBig{
+    width: 35px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+  }
+
+  .symbolButton{
+    width: 80px;
+    height: 40px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: #efefef ;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: none;
+    background-color: #FFFFFF;
+    z-index: -1;
+    position: relative;
+  }
   .filterSection{
     padding-left: 30px;
     padding-right: 30px;
