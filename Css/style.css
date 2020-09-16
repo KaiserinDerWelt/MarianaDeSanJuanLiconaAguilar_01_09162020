@@ -1,12 +1,31 @@
 
-.html{
-    width: auto;
+body{
+    margin: 0;
+    padding: 0;
+    
 }
+.topMenu{
+width: auto;
+height: 70px;
 
-/*.logo{
+}
+.logo{
+    float: left;
+    width: 120px;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+  }
+  .navigation-bar{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .navigation-bar a {
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 10px;
+  }
 
-}*/
-
-/*.menubar{
-
-}*/
