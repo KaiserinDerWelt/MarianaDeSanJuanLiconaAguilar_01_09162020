@@ -6,6 +6,8 @@
         <meta name="description" content="">
         <meta name="viewport"  content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/ecd8d824a5.js" crossorigin="anonymous"></script> 
+        
     </head>
     <body>
         <!--Page content starts here-->
@@ -13,18 +15,23 @@
         <div class="topMenu">
             <div class="navigation-bar">
                 <img class="logo" src="images/logo/Reservia@3x.png">
-                    <a href="#" class="navigationText">Sign Up</a>
+                    <a href="#" class="navigationText" id="textHighlight">Sign Up</a>
+                    <a href="#" class="navigationText" id="textGray">Activities</a>
                      <a href="#" class="navigationText">Accomodations</a>
-                        <a href="#" class="navigationText">Activities</a>
             </div>
         </div>
-          <div>
+        <!--Find Section-->
+          <div class="findSection">
             <h3>Find a placer for your dream vacation</h3>
-            <h6>Downtown or in nature</h6>
-            <button></button>
-            <input type="text" value="Marselle,France">
-            <button></button>
-            <div class="filters">
+            <p>Downtown or in nature</p>
+            <div class="searchBar">
+                <button class="btnLocation"><i class="fa fa-map-marker" aria-hidden="true"></i></button>
+                <input type="text" placeholder="  Marselle, France" class="inputLocation">
+                <button class="btnSearch">Search</button>
+            </div>
+        </div>
+          <!--Filter Section-->
+            <div class="filterSection">
                 <h4>Filters</h4>
                 <button class="filterBig"> 
                     <button class="symbolButton">
@@ -44,7 +51,7 @@
                 </button>
             </div>
           </div>
-        
+        <!--Info Section-->
         <div class="infoSection">
             <h6><button class="info">
             </button>
@@ -52,7 +59,7 @@
             city
             </h6>
         </div>
-        <div class="accomodationContainer">
+        <div class="accomodationSection">
             <h6>Accomodations in Marseille</h6>
             <div class="descriptiveContainer">
                 <img src="">
@@ -61,7 +68,7 @@
                 </h6>
                 <p>Fa fa icon here</p>
             </div>
-            <div class="mostPopularContainer">
+            <div class="mostPopularSection">
                 <div class="popularDescriptiveContainer">
                     <img src="">
                     <h5>Title</h5>
