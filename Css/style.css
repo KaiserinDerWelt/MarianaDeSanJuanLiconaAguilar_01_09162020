@@ -102,43 +102,90 @@ height: 60px;
     width: 100%;
     position: relative;
     display: flex;
+   
  }
-
+ 
  .sortingButton{
     width: 100%;
     position: relative;
     display: flex;
-
+    padding-top: 20px;
+    align-items: center;
  }
 
   h4{
+      padding-top: 10px;
       padding-right: 20px;
   }
+  
 
-  .filterBig{
-    width: 35px;
-    height: 40px;
-    border: none;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+  /*Toggle*/
 
-  }
-
-  .symbolButton{
-    width: 80px;
-    height: 40px;
-    border-width: 0.1px;
-    border-style: solid;
-    border-color: #efefef ;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-left: none;
-    background-color: #FFFFFF;
-    z-index: -1;
+  .switch {
     position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
   }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    border-color: #EFEFEF; 
+    border-width: 0.3px;
+    border-style: solid;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 39px;
+    width: 39px;
+    background-color:  #DEEBFF;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #FFFFFF;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+
+  .slider.round {
+    border-radius: 34px;
+    margin-right: 10px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+
   .filterSection{
     padding-left: 30px;
     padding-right: 30px;
