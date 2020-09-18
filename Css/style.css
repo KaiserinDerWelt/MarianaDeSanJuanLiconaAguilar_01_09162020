@@ -274,7 +274,8 @@ height: 60px;
 
   .column{
   width: 310px;
-  height: 300px;
+  height: 320px;
+
   margin-right: 20px;
   border-radius: 20px;
   background-color: red;
@@ -284,9 +285,47 @@ height: 60px;
     margin-right: 0px;
   }
 
-  .innerProductOne{
+  .innerProductsOne{
     width: 310px;
-    height: 30px;
+    height: 159px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-bottom: 23px;
+    background-color:  royalblue;
+
+  }
+
+  .innerProductsTwo{
+    width: 310px;
+    height: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-bottom: 23px;
+    background-color:  royalblue ;
+
+  }
+
+  .innerProductsThree{
+    width: 310px;
+    height: 139px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-bottom: 23px;
+    background-color: royalblue;
+
+  }
+
+
+  .innerProductsFour{
+    width: 310px;
+    height: 137px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+
     background-color: royalblue;
 
   }
