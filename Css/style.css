@@ -183,16 +183,37 @@ height: 60px;
   
   .slider.round:before {
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #0065FC;
+    font-size: 18px;
   }
+  .slider.round.lowcost:before {
+    font-family: "FontAwesome";
+    content:'\f53a';
+   }
 
+  .slider.round.familyfriendly:before {
+    font-family: "FontAwesome";
+    content:'\f183';
+    align-items: center;
+   }
 
+  .slider.round.romantic:before {
+    font-family: "FontAwesome";
+    content:'\f004';
+   }
+   .slider.round.pets:before {
+    font-family: "FontAwesome";
+    content:'\f6d3';
+   }
   
   .filterSection{
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
-
   }
 
   .infoSection{
@@ -340,19 +361,19 @@ height: 60px;
   }
 
   #ColumnOne{
-  width: 300px;
+  width: 310px;
   padding-left: 30px;
-
+  text-align: left;
   }
 
   #ColumnTwo{
-    width: 300px;
+    width: 310px;
     padding-left: 30px;
-
+    text-align: left;
   }
 
   #ColumnThree{
-    width: 300px;
+    width: 310px;
     padding-left: 30px;
-
+    text-align: left;
   }
