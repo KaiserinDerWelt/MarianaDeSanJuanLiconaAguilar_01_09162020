@@ -338,3 +338,21 @@ height: 60px;
     display: flex;
     position: relative;
   }
+
+  #ColumnOne{
+  width: 300px;
+  padding-left: 30px;
+
+  }
+
+  #ColumnTwo{
+    width: 300px;
+    padding-left: 30px;
+
+  }
+
+  #ColumnThree{
+    width: 300px;
+    padding-left: 30px;
+
+  }
