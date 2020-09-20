@@ -257,12 +257,28 @@ height: 60px;
 
   .containerLeft{
     width: 750px;
-    height: 400px;
+    height: 500px;
     margin-right: 50px;
     border-radius: 20px;
     background-color: #EFEFEF;
     
   }
+
+  .containerColumnsAccomodations{
+    position: relative;
+    display: flex;
+  }
+
+  .columnAccomodation{
+    width: 205px;
+    height: 190px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    background-color: aqua;
+
+  }
+
 
   #productOfferText{
    padding-left: 35px;
@@ -272,11 +288,52 @@ height: 60px;
 
   .containerRight{
     width: 400px;
-    height: 400px;
+    height: 500px;
     border-radius: 20px;
     background-color: #EFEFEF;
-    
   }
+
+  .columnProduct{
+    display: flex;
+    position: relative;
+  }
+
+  .oneRight{
+    width: 340px;
+    height: 110px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-bottom: 23px;
+    margin-left: 30px;
+    background-color:  royalblue ;
+
+  }
+
+  .twoRight{
+    width: 340px;
+    height: 110px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-bottom: 23px;
+    margin-left: 30px;
+    background-color:  royalblue ;
+  }
+
+  .threeRight{
+    width: 340px;
+    height: 110px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-bottom: 23px;
+    margin-left: 30px;
+    background-color:  royalblue ;
+
+  }
+
+
  
   .activitiesSection{
     padding-left: 30px;
