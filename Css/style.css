@@ -180,6 +180,10 @@ height: 60px;
     margin-right: 10px;
   }
   
+  .slider.round:hover {
+    background-color: #DEF4FF;
+  }
+  
   .slider.round:before {
     border-radius: 50%;
     display: flex;
