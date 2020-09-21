@@ -17,8 +17,8 @@
             <div class="navigation-bar">
                 <img class="logo" src="images/logo/Reservia@3x.png">
                     <a href="#" class="navigationText" id="textHighlight">Sign Up</a>
-                    <a href="#" class="navigationText" id="textGray">Activities</a>
-                     <a href="#" class="navigationText">Accomodations</a>
+                    <a href="#Activities" class="navigationText" id="textGray">Activities</a>
+                     <a href="#Accomodation" class="navigationText">Accomodations</a>
             </div>
         </div>
         <!--Find Section-->
@@ -37,19 +37,27 @@
                     <h4>Filters</h4>
                         <label class="btnAction">
                             <input type="checkbox">
-                            <span class="slider round lowcost"></span>
+                            <span class="slider round lowcost" id="sizeOne">
+                                <h6 class="labelOne">Low Cost</h6>
+                            </span>
                           </label>
                           <label class="btnAction">
                                 <input type="checkbox">
-                                    <span class="slider round familyfriendly"></span>
+                                    <span class="slider round familyfriendly" id="sizeTwo">
+                                        <h6 class="labelOne">Family-friendly</h6>
+                                    </span>
                                     </label>
                             <label class="btnAction">
                                     <input type="checkbox">
-                                        <span class="slider round romantic"></span>
+                                        <span class="slider round romantic" id="sizeOne">
+                                            <h6 class="labelOne">Romantic</h6>
+                                        </span>
                                          </label>
                                     <label class="btnAction">
                                         <input type="checkbox">
-                                            <span class="slider round pets"></span>
+                                            <span class="slider round pets">
+                                                <h6 class="labelOne">Pets Allowed</h6>
+                                            </span>
                                              </label>
                                             </div>
                               </div>
@@ -59,20 +67,19 @@
             <p id="infoParagraph"> More than 500 accomodatios are available in this<br>city</p>
         </div>
                  <!--Accomodations Section-->
-     <div class="accomodationSection">
+     <div class="accomodationSection" id="Accomodation">
             <div class="containerLeft">
              <h3 id="productOfferText">Accomodations in Marseille</h3>
              <div class="containerColumnsAccomodations">
-                 <div class="columnAccomodation">
-                    <a href="#">
-                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="productDisplay"></a>
-                    <h5>Auberge La Cannebiere</h5>
-                    <p id="infoParagraph">Night Starting at <strong>25€</strong></p>
-                    <p><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i><i class="fas fa-star" id="emptyStar"></i></i></p>
-                    </a>
+                <a href="">
+                    <div class="columnAccomodation">
+                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="productDisplay"></a>
+                        <h5>Auberge La Cannebiere</h5>
+                        <p id="infoParagraph">Night Starting at <strong>25€</strong></p>
+                        <p><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star" id="emptyStar"></i></i></p>  
                 </div>
-
+                </a>
                  <div class="columnAccomodation">
                      <a href="#">
                     <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class="productDisplay"></a>
@@ -101,7 +108,7 @@
                     <p><i class="fas fa-star"><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         <i class="fas fa-star" id="emptyStar"></i><i class="fas fa-star" id="emptyStar"></i></i></p>
                     </a>
-                       <a href=""><h4>Show More</h4></a> 
+                       <h4>Show More</h4>
                 </div>
                 <div class="columnAccomodation">
                     <a href="#">
@@ -165,7 +172,7 @@
                 </div>
                </div>
         </div>
-        <div class="activitiesSection">
+        <div class="activitiesSection" id="Activities">
             <h3>Activities in Marseille</h3>
             <div class="containerColumns">
                 <div class="column">

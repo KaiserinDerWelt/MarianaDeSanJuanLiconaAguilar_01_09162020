@@ -116,14 +116,12 @@ height: 60px;
       padding-top: 10px;
       padding-right: 20px;
   }
-  
 
   /*Toggle*/
 
   .btnAction {
     position: relative;
-    display: inline-block;
-    margin-right: 80px;
+    padding-right: 105px;
     width: 60px;
     height: 34px;
   }
@@ -135,7 +133,7 @@ height: 60px;
 
   .slider {
     position: absolute;
-    width: 120px;
+    width: 153px;
     height: 40px;
     cursor: pointer;
     top: 0;
@@ -174,6 +172,18 @@ height: 60px;
     transform: translateX(80px);
     
   }
+
+  input:checked + .slider.familyfriendly:before {
+    -webkit-transform: translateX(114px);
+    -ms-transform: translateX(114px);
+    transform: translateX(114px);
+  }
+
+  input:checked + .slider.pets:before {
+    -webkit-transform: translateX(114px);
+    -ms-transform: translateX(114px);
+    transform: translateX(114px);
+  }
   
   .slider.round {
     border-radius: 34px;
@@ -182,6 +192,7 @@ height: 60px;
   
   .slider.round:hover {
     background-color: #DEF4FF;
+    opacity: 0.5;
   }
   
   .slider.round:before {
@@ -196,6 +207,23 @@ height: 60px;
   .slider.round.lowcost:before {
     font-family: "FontAwesome";
     content:'\f53a';
+   }
+
+   #sizeOne{
+    width: 122px !important;
+   }
+   
+
+   .labelOne{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 12px;
+    padding-right: 7px;
+    font-size: 12px;
+    color:  #000000;
+    font-weight: 100px;
+    letter-spacing: 1px;
    }
 
   .slider.round.familyfriendly:before {
@@ -477,6 +505,8 @@ height: 60px;
     margin-bottom: 3px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    border-color: #EFEFEF;
+    border-bottom: 3px;
   }
 
   .activityDisplayHalfandHalf{
