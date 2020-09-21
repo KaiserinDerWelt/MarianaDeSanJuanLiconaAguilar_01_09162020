@@ -399,23 +399,28 @@ height: 60px;
   background-color: #FFFFFF;
   }
 
+  .columnActivitiesSecond{
+    width: 280px;
+    height: 320px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+  }
+
   .marginFixing{
     margin-right: 0px;
   }
 
   .innerProductsOne{
-    width: 310px;
+    width: 260px;
     height: 159px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     border-radius: 20px;
-    margin-bottom: 23px;
+    margin-bottom: 3px;
     background-color:  #FFFFFF;
 
   }
 
   .innerProductsTwo{
-    width: 310px;
+    width: 260px;
     height: 120px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -444,6 +449,48 @@ height: 60px;
     padding-bottom: 5px;
     border-radius: 20px;
     background-color: #FFFFFF;
+  }
+
+  .activityDisplayColumn{
+    width: 305px;
+    height: 300px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .activityDisplayHalfandHalf{
+    width: 250px;
+    height:130px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+   .activityDisplayFourty{
+    width: 250px;
+    height: 125px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .activityDisplaySixty{
+    width: 250px;
+    height: 120px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
   footer{
