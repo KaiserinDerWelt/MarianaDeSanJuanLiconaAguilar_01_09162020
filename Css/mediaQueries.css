@@ -124,7 +124,7 @@ p {
 }
 
 .oneRight{
-  width: 290px;
+  width: 345px; /*Temporal adjusment*/
   height: 110px;
   border-radius: 20px;
   border-color: #EFEFEF;
@@ -152,6 +152,19 @@ h5{
   margin-left: 6px;
   border-color: #EFEFEF;
   color: #0065FC;
+}
+
+h4{
+  display: none;
+}
+
+.containerColumns {
+  
+}
+
+.footerContent{
+  flex-direction: column;
+  display: flex;
 }
   }
 
