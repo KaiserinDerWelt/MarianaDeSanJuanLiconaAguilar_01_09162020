@@ -40,6 +40,20 @@
       padding-bottom: 14px;
       padding-left: 5px;
   }
+
+  .btnSearch{
+    width: 53px;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left:none;
+    background-color: #0065FC;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
   .sortingButton{
     width: 50%;
     align-items: center;
@@ -90,6 +104,7 @@ p {
 .containerColumnsAccomodations {
   flex-direction: column;
   display: flex;
+  padding-top: 10px;
 }
 
 .containerRight {
@@ -124,14 +139,37 @@ p {
 }
 
 .oneRight{
-  width: 345px; /*Temporal adjusment*/
+  width: 254px;
   height: 110px;
   border-radius: 20px;
   border-color: #EFEFEF;
   border-width: 3px;
   margin-bottom: 23px;
-  margin-left: 30px;
+  margin-left: 15px;
   background-color:  #FFFFFF;
+}
+
+.twoRight{
+  width: 254px;
+  height: 110px;
+  border-color: #EFEFEF;
+  border-width: 3px;
+  border-radius: 20px;
+  margin-bottom: 23px;
+  margin-left: 15px;
+  background-color:   #FFFFFF;
+}
+
+.threeRight{
+  width: 254px;
+  height: 110px;
+  border-radius: 20px;
+  border-color: #EFEFEF;
+  border-width: 3px;
+  margin-bottom: 23px;
+  margin-left: 15px;
+  background-color:   #FFFFFF;
+
 }
 
 .infoRight{
@@ -159,9 +197,56 @@ h4{
 }
 
 .containerColumns {
-  
+  flex-direction: column;
+  display: flex;
 }
 
+.activityDisplayColumn{
+  width: 250px;
+  height:130px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.column{
+  width: 280px;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  }
+
+.activityDisplayFourty{
+  width: 250px;
+  height:130px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.activityDisplaySixty{
+  width: 250px;
+  height:130px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #EFEFEF;
+  
+}
 .footerContent{
   flex-direction: column;
   display: flex;

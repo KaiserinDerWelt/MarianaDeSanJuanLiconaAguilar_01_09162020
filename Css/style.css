@@ -442,7 +442,7 @@ height: 60px;
   background-color: #FFFFFF;
   }
 
-  .columnActivitiesSecond{
+  #columnActivitiesSecond{
     width: 280px;
     height: 320px;
     border-radius: 20px;
