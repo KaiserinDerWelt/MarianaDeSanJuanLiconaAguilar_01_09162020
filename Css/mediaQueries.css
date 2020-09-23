@@ -1,13 +1,11 @@
 @media (max-width: 480px) {
-  html {
-    overflow-x: hidden;
-  }
+ 
   body{
     width: 90%;
     height: auto;
     margin: 5px;
     padding:5px;
-    overflow: auto;
+    overflow-x: hidden !important;
     font-family: 'Raleway', sans-serif;
 }
   .topMenu {
@@ -104,6 +102,9 @@ p {
   border-color: #EFEFEF;
   border-width: 3px;
   border-style: solid;
+}
+#responsiveFix{
+    margin-top: 50px !important;
 }
 
 .containerLeft{
@@ -291,9 +292,11 @@ footer{
  }
 @media (min-width:961px)  { 
   /* tablet, landscape iPad, lo-res laptops ands desktops */
+
  }
 @media (min-width:1025px) {
    /* big landscape tablets, laptops, and desktops */ 
+
   }
 @media (min-width:1281px) { 
   /* hi-res laptops and desktops */ 
