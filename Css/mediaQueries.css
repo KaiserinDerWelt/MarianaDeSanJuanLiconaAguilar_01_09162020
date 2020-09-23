@@ -1,5 +1,7 @@
 @media (max-width: 480px) {
-
+  html {
+    overflow-x: hidden;
+  }
   body{
     width: 90%;
     height: auto;
@@ -88,8 +90,20 @@ p {
   padding-top: 5px;
   padding-bottom: 15px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: flex-start;
+}
+
+.columnAccomodation{
+  width: 205px;
+  height: 190px;
+  margin-left: 30px;
+
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  border-color: #EFEFEF;
+  border-width: 3px;
+  border-style: solid;
 }
 
 .containerLeft{
@@ -104,13 +118,14 @@ p {
 .containerColumnsAccomodations {
   flex-direction: column;
   display: flex;
-  padding-top: 10px;
+  padding-top:10px;
 }
 
 .containerRight {
   width: 282px;
   height: auto;
   border-radius: 20px;
+  margin-bottom: 20px;
   background-color: #EFEFEF;
 }
 
