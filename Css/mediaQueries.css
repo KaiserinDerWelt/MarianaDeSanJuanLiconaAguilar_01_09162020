@@ -173,9 +173,10 @@ p {
 }
 
 .infoRight{
+  width: 120px;
   float: right;
   margin-top: 7px;
-  margin-right: 60px;
+  margin-right: 10px;
   text-align: left !important;
 }
 
@@ -202,7 +203,7 @@ h4{
 }
 
 .activityDisplayColumn{
-  width: 250px;
+  width: 277px;
   height:130px;
   margin-top: 3px;
   margin-bottom: 3px;
@@ -220,8 +221,19 @@ h4{
   background-color: #FFFFFF;
   }
 
+  .activityDisplayHalfandHalf{
+    width: 277px;
+    height:130px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
 .activityDisplayFourty{
-  width: 250px;
+  width: 277px;
   height:130px;
   margin-top: 3px;
   margin-bottom: 3px;
@@ -231,7 +243,7 @@ h4{
   border-top-right-radius: 20px;
 }
 .activityDisplaySixty{
-  width: 250px;
+  width: 277px;
   height:130px;
   margin-top: 3px;
   margin-bottom: 3px;
