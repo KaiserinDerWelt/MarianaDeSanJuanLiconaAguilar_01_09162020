@@ -209,8 +209,9 @@ height: 60px;
     content:'\f53a';
    }
 
-   #sizeOne{
+   .sizeOne{
     width: 122px !important;
+
    }
    
 
