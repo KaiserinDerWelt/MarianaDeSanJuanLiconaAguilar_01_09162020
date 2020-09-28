@@ -241,6 +241,10 @@ height: 60px;
     font-family: "FontAwesome";
     content:'\f6d3';
    }
+
+   #text{
+     color: red;
+   }
   
   .filterSection{
     padding-left: 30px;
