@@ -275,7 +275,7 @@ height: 60px;
     padding-right: 5px;
   }
 
-  #infoParagraph{
+  .infoParagraph{
     padding-left: 10px;
   }
 
@@ -336,11 +336,11 @@ height: 60px;
    color: #0065FC;
  }
 
- #emptyStar{
+ .emptyStar{
    color: #A9A9A9; /*The suggested color #EFEFEF is not visible */
  }
 
-  #productOfferText{
+  .productOfferText{
    padding-left: 35px;
    padding-right: 35px;
    text-align: left;
