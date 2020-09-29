@@ -36,7 +36,7 @@ height: 60px;
       font-size: 16px;
       text-decoration: none;
       font-style: normal;
-      color:#0065FC;
+      color:#0065FC !important;
       font-family: 'Raleway', sans-serif;
   }
 
@@ -347,7 +347,13 @@ height: 60px;
    margin-bottom: 5px;
    margin-left: 7px;
    font-style: oblique;
+   
  }
+ a:-webkit-any-link {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none !important;
+}
 
  .fas{
    margin-left: 2px;
