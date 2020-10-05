@@ -7,12 +7,12 @@
     padding:5px;
     overflow-x: hidden !important;
     font-family: 'Raleway', sans-serif;
-}
+  }
   .topMenu {
     width: auto;
     height: 60px;
     position: inherit;
-}
+  }
     .logo {
     float: left;
     width: 100px;
@@ -39,7 +39,7 @@
       padding-top: 14px;
       padding-bottom: 14px;
       padding-left: 5px;
-  }
+    }
 
   .btnSearch{
     width: 53px;
@@ -50,9 +50,7 @@
     border-left:none;
     background-color: #0065FC;
     color: #FFFFFF;
-    font-weight: bold;
-
-}
+    font-weight: bold;  }
 
   .sortingButton{
     width: 50%;
@@ -61,8 +59,7 @@
     flex-direction: column;
     align-items: flex-start;
     width: 200px;
- }
-
+  }
 
   h4{
       padding-right: 13px;
@@ -74,7 +71,7 @@
     width: 60px;
     height: 34px;
     padding-bottom: 14px;
-}
+ }
 
 p {
   font-size: 11px;
@@ -96,15 +93,15 @@ p {
   width: 205px;
   height: 190px;
   margin-left: 30px;
-
   border-radius: 20px;
   background-color: #FFFFFF;
   border-color: #EFEFEF;
   border-width: 3px;
   border-style: solid;
 }
+
 #responsiveFix{
-    margin-top: 0px !important;
+  margin-top: 0px !important;
 }
 
 .containerLeft{
@@ -134,7 +131,7 @@ p {
   padding-left: 35px;
   padding-right: 35px;
   position: absolute;
- }
+}
 
  #chart{
   float: right;
@@ -185,7 +182,6 @@ p {
   margin-bottom: 23px;
   margin-left: 15px;
   background-color:   #FFFFFF;
-
 }
 
 .infoRight{
@@ -273,27 +269,12 @@ footer{
   width: 100%;
   height: auto;
   background-color: #EFEFEF;
-  
 }
+
 .footerContent{
   flex-direction: column;
   display: flex;
 }
-  }
+}
 
-@media (min-width:320px)  {
-   /* smartphones, iPhone, portrait 480x320 phones */ 
-  }
-@media (min-width:481px)  {
-   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-  }
-@media (min-width:641px)  { 
-  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
- }
-@media (min-width:961px)  { 
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
 
- }
-@media (min-width:1025px) {
-   /* big landscape tablets, laptops, and desktops */ 
-  }

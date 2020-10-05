@@ -167,12 +167,7 @@ height: 60px;
     box-shadow: 0 0 0.5px #2196F3;
   }
   
-  input:checked + .slider:before {
-    -webkit-transform: translateX(80px);
-    -ms-transform: translateX(80px);
-    transform: translateX(80px);
-    
-  }
+
   
   input:checked + .slider.lowcost:before {
     -webkit-transform: translateX(87px);
@@ -454,7 +449,7 @@ height: 60px;
   background-color: #FFFFFF;
   }
 
-  #columnActivitiesSecond{
+  .columnActivitiesSecond{
     width: 280px;
     height: 320px;
     border-radius: 20px;
